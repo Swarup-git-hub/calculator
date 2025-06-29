@@ -8,27 +8,29 @@
 *
 {
     margin: 0%;
+    padding: 0;
     outline: none;
 }
 body{
     margin: 0%;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     background-color:#e7e7db;
 
 }
 
 button{
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     border-radius: 50px;
     border: none;
     background-color: var(--darkliver);
     color: var(--semi);
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     cursor:pointer;
 }
@@ -36,9 +38,10 @@ button{
     background-color: var(--background);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 380px;
     overflow: hidden;
     margin: 5px;
+    height: auto;
 }
 
 @keyframes rotate-90-cw {
@@ -72,16 +75,17 @@ button{
     padding: 30px;
     text-align: left;
     color: var(--semi);
-    font-size: 50px;
+    font-size: 45px;
     border: none;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     background-color: var(--darkliver);
 }
 .keys{
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 25px;
+    gap: 7px;
+    padding: 21px;
     
 }
 button:hover{
@@ -111,17 +115,17 @@ button:active{
     }
 
     .calculator {
-        width: 90%;
+        width: 95%;
     }
 
     #display {
         font-size: 30px; 
-        padding: 20px;
+        padding: 27px;
     }
 
     .keys {
         grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
+        gap: 7px;
     }
 
     button {
