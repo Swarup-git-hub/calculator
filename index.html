@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <h1> BASIC CALCULATOR</h1> -->
+   <!-- <h1> BASIC CALCULATOR</h1> -->
 <div class="tilt"></div>
     <div class="calculator">
-        <input id="display"  placeholder="Calculator" >
+        <input id="display"  placeholder="Calculator">
             <div class="keys">
-               
                 <button onclick="cleardisplay()" class="op_row">AC</button>
                 <button onclick="clearlast()" class="op_row">C</button>
                 <button onclick="appendtodisplay('%')" class="op_row">%</button>
@@ -30,6 +29,7 @@
                 <button onclick="appendtodisplay('2')">2</button>
                 <button onclick="appendtodisplay('3')">3</button>
                 <button onclick="appendtodisplay('+')"class="op_column">+</button>
+                <button onclick="appendtodisplay('00')" class="zero">00</button>
                 <button onclick="appendtodisplay('0')" class="zero">0</button>
                 <button onclick="appendtodisplay('.')">.</button>
                 <button onclick="calculate()" class="op_column">=</button>
